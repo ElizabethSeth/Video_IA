@@ -5,12 +5,11 @@ os.environ["IMAGEIO_FFMPEG_EXE"] = "C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\
 
 from moviepy.editor import *
 
-# Загрузите фоновое изображение
 background_image = ImageClip("Liam.jpeg")
 
-# Определите текст и создайте список слов
+
 text = "Il était une fois, dans un petit village au cœur d'une vallée verdoyante, un jeune garçon nommé Liam. Liam était un rêveur, toujours plongé dans les pages de ses livres préférés."
-words = text.split()  # Разделите текст на слова
+words = text.split()  
 
 
 video_clips = []
